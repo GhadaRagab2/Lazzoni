@@ -9548,3 +9548,75 @@ table p {
     margin-bottom: 0 !important;
   }
 }
+/*----------------------------------------*/
+/*  40 - Pages - FAQ
+/*----------------------------------------*/
+.frequently-area {
+  padding: 80px 0 65px;
+}
+.frequently-area .frequently-content .frequently-desc {
+  margin-bottom: 25px;
+}
+.frequently-area .frequently-content .frequently-desc h3 {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.frequently-area .frequently-content .frequently-desc p {
+  margin: 0;
+  font-size: 14px;
+}
+.frequently-area .frequently-accordion .actives {
+  border: 1px solid #f0b04e;
+}
+.frequently-area .frequently-accordion .card {
+  border-radius: 0;
+  margin-bottom: 15px;
+}
+.frequently-area .frequently-accordion .card-header {
+  padding: 0;
+  margin-bottom: 0;
+  background-color: #f4f4f4;
+  border: 0;
+}
+.frequently-area .frequently-accordion .card-header a {
+  display: block;
+  padding: 15px 10px 15px 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.frequently-area .frequently-accordion .card-header a:hover {
+  color: #f0b04e !important;
+}
+.frequently-area .frequently-accordion .card-header a.collapsed:before {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #bababa;
+}
+@media (max-width: 479px) {
+  .frequently-area .frequently-accordion .card-header a.collapsed:before {
+    display: none;
+  }
+}
+.frequently-area .frequently-accordion .card-header a:after {
+  content: "\f068";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #bababa;
+}
+@media (max-width: 479px) {
+  .frequently-area .frequently-accordion .card-header a:after {
+    display: none;
+  }
+}
+
+/*----------------------------------------*/
